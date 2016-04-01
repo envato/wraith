@@ -111,7 +111,7 @@ class Wraith::GalleryGenerator
 
   def sorting_dirs(dirs)
     if %w(diffs_only diffs_first).include?(wraith.mode)
-      @sorted = dirs.sort_by { |_category, sizes| -1 * sizes.max_by { |_size, dict| dict[:data] }[1][:data] }
+      @sorted = dirs.sort_by { |_category, sizes| puts "_category: #{_category} sizes: #{sizes}"; -1 * sizes.max_by { |_size, dict| dict[:data] }[1][:data] }
     else
       @sorted = dirs.sort_by { |category, _sizes| category }
     end
