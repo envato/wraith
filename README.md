@@ -1,18 +1,12 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/BBC-News/wraith/master/assets/wraith-logo.png">
-</p>
+![Wraith logo](https://raw.githubusercontent.com/BBC-News/wraith/master/assets/wraith-logo.png)
 
-<p align="center">
-  <a href="http://travis-ci.org/BBC-News/wraith" target="_blank"><img src="https://secure.travis-ci.org/BBC-News/wraith.png?branch=master"></a>
-  <a href="https://rubygems.org/gems/wraith" target="_blank"><img src="https://img.shields.io/gem/v/wraith.svg"></a>
-  <a href="https://codeclimate.com/github/BBC-News/wraith" target="_blank"><img src="https://codeclimate.com/github/BBC-News/wraith.png"></a>
-</p>
+[![build status](https://secure.travis-ci.org/BBC-News/wraith.png?branch=master)](http://travis-ci.org/BBC-News/wraith)
+[![rubygems version](https://img.shields.io/gem/v/wraith.svg)](https://rubygems.org/gems/wraith)
+[![codeclimate report](https://codeclimate.com/github/BBC-News/wraith.png)](https://codeclimate.com/github/BBC-News/wraith)
 
-<p align="center">
-  Wraith is a screenshot comparison tool, created by developers at BBC News.
-  <br>
-  <a href="http://bbc-news.github.io/wraith/index.html" target="_blank">Documentation</a> • <a href="http://github.com/bbc-news/wraith" target="_blank">Source</a> • <a href="http://responsivenews.co.uk" target="_blank">Responsive News Website</a>
-</p>
+Wraith is a screenshot comparison tool, created by developers at BBC News.
+
+[Documentation](http://bbc-news.github.io/wraith/) • [Source](http://github.com/bbc-news/wraith) • [Responsive News Website](http://responsivenews.co.uk)
 
 ## What is it?
 
@@ -56,17 +50,7 @@ Wraith also requires at least one of these headless browsers:
 
 ## Contributing
 
-If you want to add functionality to this project, pull requests are welcome.
-
- * Fork a branch based off BBC-News/wraith:master and do all of your changes within it.
- * Make commits of logical units and describe them properly.
- * Check for unnecessary whitespace with git diff --check before committing.
- * If possible, submit tests to your patch / new feature so it can be tested easily.
- * Assure nothing is broken by running all the tests (`bundle exec rspec`).
- * Please ensure that it complies with coding standards.
- * When writing the title of your Pull Request, if you have to pause to add an 'and' anywhere in the title - it should be two pull requests.
-
-**Please raise any issues with this project as a GitHub issue.**
+Please read [how to contribute to Wraith](https://github.com/BBC-News/wraith/blob/master/.github/CONTRIBUTING.md).
 
 ## License
 
